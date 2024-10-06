@@ -1,0 +1,14 @@
+services:  
+  Postgres:
+    build: 
+      dockerfile: Dockerfile
+    image: thd/postgres
+    container_name: THD_Postgres
+    restart: unless-stopped
+    ports:
+      - 5432:5432
+    volumes:
+      - PG-Data:/var/lib/postgresql/data
+
+volumes:
+  PG-Data:
