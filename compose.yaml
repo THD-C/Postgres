@@ -4,6 +4,7 @@ services:
       dockerfile: Dockerfile
     image: thd/postgres
     container_name: THD_Postgres
+    hostname: Postgres
     restart: unless-stopped
     ports:
       - 5432:5432
