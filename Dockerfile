@@ -1,7 +1,7 @@
 FROM postgres:16.2
 
 ### Database
-ENV POSTGRES_DB="verceldb"
+ENV POSTGRES_DB="thdc"
 ENV POSTGRES_PASSWORD="PL_tech_hand_elk"
 ENV POSTGRES_USER="default"
 
