@@ -3,9 +3,6 @@ name: Create Release
 on:
   push:
     branches: main
-    paths:
-      - '**/*.py'
-      - requirements.txt
 
 permissions:
   contents: write
